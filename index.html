@@ -4,66 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whispers & Words: A Poetry Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Display&family=Libre+Baskerville&family=Lora&family=Merriweather&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+<div class="everything">
+    <header>
     <h1>Poetry Haven</h1>
-    <p><em>“Where verses live, and silence speaks.”</em></p>
+    <p class="first">“Where verses live, and silence speaks.”</p>
 </header>
-  <section>
-    <figure>
+  <section class="container">
+    <div class="left-side">
+     <figure>
       <img src="images/poetry-book.jpeg" alt="A quill resting on a poem">
       <figcaption><em>Let the ink speak what the heart dares not.</em></figcaption>
     </figure>
-    <h1>Unfolding Emotions, One Stanza at a Time</h1>
-    <p>"This space is dedicated to lovers of words — a digital sanctuary for thoughts wrapped in rhythm, rhyme, and reason. Whether you're a poet, a reader, or just passing by, you’re welcome."</p>
+    </div>
+    <div class="line"></div>
+    <div class="right-side">
+      <div class="text">
+       <h2>Unfolding Emotions, One Stanza at a Time</h2>
+       <p>"This space is dedicated to lovers of words — a digital sanctuary for thoughts wrapped in rhythm, rhyme, and reason. Whether you're a poet, a reader, or just passing by, you’re welcome."</p>
+     </div>
+    </div>
   </section>
   <section>
-    <form action="">
-      <label for="name">Poet's Name:</label><br>
-      <input type="text" id="name" name="poet's-name"><br>
-      <label for="email"> Quill Mail:</label><br>
-      <input type="email" id="email" name="quill-mail"><br>
-      <label for="password">Secret Verse:</label><br>
-      <input type="password" id="password" name="secret-text"><br>
-      <label for="drop">Genre Dropdown:</label><br>
-      <select name="drop" id="drop">
+    <div class="form-part">
+      <form action="">
+       <label for="name">Poet's Name:</label><br>
+       <input type="text" id="name" name="poet's-name"><br>
+       <label for="email"> Quill Mail:</label><br>
+       <input type="email" id="email" name="quill-mail"><br>
+       <label for="password">Secret Verse:</label><br>
+       <input type="password" id="password" name="secret-text"><br>
+       <label for="drop">Genre Dropdown:</label><br>
+       <select name="drop" id="drop">
         <option value="free-verse">Free Verse</option>
         <option value="haiku">Haiku</option>
         <option value="sonnet">Sonnet</option>
         <option value="spoken-word">Spoken Word</option>
-      </select><br>
-      <button type="submit"> Join the Circle of Verses</button>
-    </form>
-  </section>
-  <section>
-    <h2>Featured Poets</h2>
-    <table border="1">
-      <tr>
+       </select><br>
+       <div class="button-wrapper">
+        <button type="submit"> Join the Circle of Verses</button>
+       </div>
+      </form>
+    </div>
+    <div >
+      <h2 class="part">Featured Poets</h2>
+      <div class="table-part">
+      <table border="1">
+       <tr>
         <th>Poet Name</th>
         <th>Email</th>
         <th>Favorite Form</th>
-      </tr>
-      <tr>
+       </tr>
+       <tr>
         <td>Henry Obado</td>
         <td>obadohenry@gmail.com</td>
         <td>Free Verse</td>
-      </tr>
-      <tr>
+       </tr>
+       <tr>
         <td>Nixon Gitenya</td>
         <td>gitenya@gmail.com</td>
         <td>Haiku</td>
-      </tr>
-      <tr>
+       </tr>
+       <tr>
         <td>Kimberly Matara</td>
         <td>matara21@gmail.com</td>
         <td>Spoken Word</td>
-      </tr>
-
-    </table>
+       </tr>
+      </table>
+      </div>
+    </div>
   </section>
-  <footer>
+  <footer class="last">
  <p>Still searching for inspiration? <a href="https://heiodary87.github.io/responsive-cards/">Let Google guide your muse.</a></p>
   </footer>
+</div>
 </body>
 </html>

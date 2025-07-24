@@ -1,0 +1,127 @@
+body{
+  margin: auto;
+}
+.everything{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: bisque;
+}
+header{
+  background-color: bisque;
+  margin: 0;
+  top: 0;
+}
+h1{
+  color: brown;
+  font-family: 'Libre Baskerville' ;
+  font-size:40px;
+  text-align: center;
+  text-shadow: solid black 2px;
+}
+p{
+  text-align: center;
+  font-family: 'Lora';
+  color: hsl(0, 0%, 15%);
+  font-style: italic;
+  font-weight: bold;
+}
+.container{
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  border: solid black 2px;
+  border-radius: 4px;
+  bottom: 20px;
+}
+.left-side{
+  flex: 1;
+}
+img{
+  object-fit: cover;
+  object-position: center;
+  height: 200px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 2px brown;
+  left: 5px;
+}
+.line{
+  width: 20px;
+  color: grey;
+  height: 200px;
+}
+h2{
+  font-family: 'Libre Baskerville';
+  color: hsl(0, 0%, 15%);
+}
+.form-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:none ;
+  border-radius: 10px;
+  padding: 20px 20px ;
+  background-color: azure;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+}
+label{
+  font-family:'Libre Baskerville' ;
+  font-weight: bold;
+  bottom: 5px;
+}
+input{
+  border: solid black 1px;
+  border-radius: 4px;
+  height: 20px;
+  width: auto;
+  bottom: 10px;
+}
+select{
+  background-color: brown;
+  font-size: medium;
+  color: aliceblue;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  bottom: 10px;
+}
+select:hover{
+  background-color: white;
+  color: brown;
+}
+.button-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  top: 20px;
+}
+button{
+  background-color: bisque;
+  padding:10px 10px ;
+  color: black;
+  font-weight: bold;
+  font-family:'Libre Baskerville' ;
+  border: none;
+  border-radius: 4px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: brown;
+  color: aliceblue;
+}
+.table-part{
+  display: flex;
+  justify-content: center;
+}
+.part{
+  text-align: center;
+  font-family: 'Libre Baskerville';
+}
+.last{
+  background-color: brown;
+}
